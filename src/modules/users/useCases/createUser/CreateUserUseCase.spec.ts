@@ -14,7 +14,7 @@ describe("Create User", () => {
     );
   });
 
-  it("Should be able to create a category", async () => {
+  it("Should be able to create a new user", async () => {
 
     const user = await createUserUseCase.execute({
       name: "Keven",
